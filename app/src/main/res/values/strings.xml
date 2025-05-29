@@ -1,0 +1,221 @@
+<resources>
+    <string name="app_name">EE Wallet</string>
+
+    <!-- Buttons -->
+    <string name="cancel_btn">Cancel</string>
+    <string name="delete_btn">Delete</string>
+    <string name="confirm_btn">Confirm</string>
+    <string name="close_btn">Close</string>
+    <string name="share_btn">Share</string>
+    <string name="continue_btn">Continue</string>
+
+    <!-- Misc -->
+    <string name="loading">Loading…</string>
+    <string name="exit_confirmation">repeat to exit!</string>
+    <string name="nothing_to_show_title">Nothing to show here</string>
+    <string name="nothing_to_show_subtitle">Pull down to refresh</string>
+
+    <!-- Scanner -->
+    <string name="scanner_no_permissions_title">Allow camera access in device settings</string>
+    <string name="scanner_no_permissions_description">EE Wallet uses camera to read QR codes.</string>
+    <string name="scanner_go_to_settings">Open settings</string>
+    <string name="scanner_scan_qr_code">Scan QR code</string>
+    <string name="scanner_focus_note">Focus the camera on the QR code to start presentation of data online.</string>
+
+    <!-- Welcome -->
+    <string name="welcome_title">Set up your Wallet</string>
+    <string name="welcome_create_pin">Continue</string>
+    <string name="welcome_language_title">Wallet language</string>
+    <string name="welcome_subtitle">To set up the Wallet, create a Wallet PIN and add a Digital ID document to the Wallet.</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Dashboard</string>
+    <string name="dashboard_my_documents">My documents</string>
+    <string name="dashboard_activity_log">Activity Log</string>
+    <string name="dashboard_settings">Settings</string>
+    <string name="dashboard_from_the_verifier">Present data online</string>
+    <string name="dashboard_scan_qr_code">Scan QR code</string>
+    <string name="dashboard_show_qr_code">Show QR code</string>
+    <string name="dashboard_to_the_verifier">to the verifier</string>
+
+    <string name="doc_type_estonian_digital_id">Estonian Digital ID</string>
+    <string name="doc_type_primary_description">Primary identification document</string>
+    <string name="doc_type_digital_driving_licence">Digital Driving Licence</string>
+    <string name="doc_type_right_to_drive_description">Right to drive</string>
+
+    <!-- My documents -->
+    <string name="my_documents_add_new_document">Add new document</string>
+    <string name="my_documents_add_pid_sd_jwt">Add PID (sd-jwt)</string>
+    <string name="my_documents_add_pid_mdoc">Add PID (mdoc)</string>
+    <string name="my_documents_add_mdl_mdoc">Add MDL (mdoc)</string>
+    <string name="my_documents_no_documents_found">No documents found.</string>
+    <string name="my_documents_title">My Documents</string>
+    <string name="my_documents_error_while_adding_a_new_document">Error while adding a new document.\n%1$s</string>
+
+    <string name="document_qr_code_title">This QR code includes same document data as seen above</string>
+
+    <!-- PIN -->
+    <string name="pin_welcome_to_ee_wallet">Select PIN for the Wallet</string>
+    <string name="pin_enter_your_new_pin">Select PIN</string>
+    <string name="pin_re_enter_your_pin">Re-enter PIN</string>
+    <string name="pin_pin_successfully_created">PIN successfully\ncreated!</string>
+    <string name="pin_enter_wallet_pin">Enter Wallet PIN</string>
+    <string name="pin_confirm_sharing_the_data_with">Confirm sharing the data with:</string>
+    <string name="pin_confirm_issuance_by">Confirm adding document by:</string>
+    <string name="pin_incorrect_pin_attempts_left">Incorrect PIN. Attempts left: %1$s</string>
+    <string name="pin_unknown_error">Unknown error</string>
+    <string name="pin_pins_don_t_match_please_try_again">PINs don\'t match. Please try again.</string>
+
+    <!-- Presentation -->
+    <string name="presentation_close_in_btn">Close in %1$s</string>
+    <string name="presentation_data_exchange_successful">Data exchange successful!</string>
+    <string name="presentation_close_and_try_again">Close and try again.</string>
+    <string name="presentation_verified_party">Verified party</string>
+    <string name="presentation_requests_following_data_to">Requests the following information:</string>
+    <string name="presentation_footer_note">Review carefully what data you are going to share with the %1$s!</string>
+    <string name="presentation_image_stub">[Image]</string>
+
+    <!-- Errors -->
+    <string name="error_presentation_rp_connection_failed">Connecting to the party requesting the data failed.</string>
+    <string name="error_presentation_unknown_error">Wallet encountered unexpected issue.</string>
+    <string name="error_presentation_verification_error">Authenticating the party that requested the data failed.</string>
+    <string name="error_presentation_match_error">Document that includes requested data is not stored in the Wallet.</string>
+    <string name="error_presentation_response_error">Failed to send presentation response</string>
+    <string name="error_presentation_incorrect_pin">User exceeded incorrect Wallet PIN entry limit.</string>
+    <string name="error_presentation_user_cancelled">User cancelled data presentation in the Wallet.</string>
+    <string name="error_presentation_verifier_error">Verifier rejected</string>
+    <string name="error_presentation_unsupported_request_type">Unsupported request type!</string>
+    <string name="error_issuance_authorization_error">Authorization failure</string>
+    <string name="error_issuance_common_error">Failed to issue document(s)</string>
+
+    <!-- Attributes -->
+    <string name="attr_identification_nr">Personal identification code</string>
+    <string name="attr_administrative_number">Administrative number</string>
+    <string name="attr_given_name">Given name</string>
+    <string name="attr_family_name">Family name</string>
+    <string name="attr_given_name_national_character">Given name national character</string>
+    <string name="attr_family_name_national_character">Family name national character</string>
+    <string name="attr_given_name_birth">Given name at birth</string>
+    <string name="attr_family_name_birth">Family name at birth</string>
+    <string name="attr_birth_place">Birth place</string>
+    <string name="attr_date_of_birth">Date of birth</string>
+    <string name="attr_nationality">Nationality</string>
+    <string name="attr_age_over_18">Age over 18</string>
+    <string name="attr_issuance_date">Date of issuance</string>
+    <string name="attr_issuing_authority">Issuing authority</string>
+    <string name="attr_issuing_country">Issuing country</string>
+    <string name="attr_document_number">Document number</string>
+    <string name="attr_expiry_date">Date of expiry</string>
+    <string name="attr_portrait">Portrait</string>
+    <string name="attr_driving_privileges">Driving privileges</string>
+    <string name="attr_un_distinguishing_sign">UN distinguishing sign</string>
+    <string name="attr_signature_usual_mark">Signature/usual mark</string>
+    <string name="attr_resident_address">Resident address</string>
+    <string name="attr_resident_country">Resident country</string>
+    <string name="attr_resident_city">Resident city</string>
+    <string name="attr_resident_state">Resident state</string>
+    <string name="attr_resident_postal_code">Resident postal code</string>
+    <string name="attr_resident_street">Resident street</string>
+    <string name="attr_resident_house_number">Resident house number</string>
+    <string name="attr_sex">Sex</string>
+    <string name="attr_email_address">eMail address</string>
+    <string name="attr_mobile_phone_number">Phone number</string>
+    <string name="attr_issuing_jurisdiction">Issuing juristiction</string>
+    <string name="attr_age_over_16">Age over 16</string>
+    <string name="attr_age_over_21">Age over 21</string>
+    <string name="attr_age_in_years">Age in years</string>
+    <string name="attr_age_birth_year">Birth year</string>
+    <string name="attr_height">Height</string>
+    <string name="attr_weight">Weight</string>
+    <string name="attr_eye_colour">Eye colour</string>
+    <string name="attr_hair_colour">Hair colour</string>
+    <string name="attr_portrait_capture_date">Portrait capture date</string>
+    <string name="attr_biometric_template_face">Biometric template: face</string>
+    <string name="attr_biometric_template_finger">Biometric template: finger</string>
+    <string name="attr_biometric_template_signature_sign">Biometric template: signature sign</string>
+    <string name="attr_biometric_template_iris">Biometric template: iris</string>
+    <string name="attr_trust_anchor">Trust anchor</string>
+
+    <!-- Dialogs -->
+    <string name="document_delete_confirmation_title">Confirmation Required</string>
+    <string name="document_delete_confirmation_text">Are you sure you want to delete this document? This action cannot be undone.</string>
+
+    <!-- Settings -->
+    <string name="settings_delete_account_confirmation_title">Confirmation Required</string>
+    <string name="settings_delete_account_confirmation_text">Are you sure you want to delete this account? This action cannot be undone.</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_delete_all_item_title">Delete all the data from the Wallet</string>
+    <string name="settings_delete_all_item_text">If you are not using this device or Wallet we recommend to erase all the Wallet data.</string>
+
+    <!-- Language -->
+    <string name="language_title">Language</string>
+    <string name="en">English</string>
+    <string name="en_localized" />
+    <string name="et">Eesti keel</string>
+    <string name="et_localized">Estonian</string>
+    <string name="ru">Русский</string>
+    <string name="ru_localized">Russian</string>
+
+    <!-- Activation -->
+    <string name="activation_title">Add Estonian Digital ID</string>
+    <string name="activation_description">To personalize the Wallet and finalize Wallet setup, add an Estonian Digital ID document to the Wallet. Select suitable option below for adding Estonian Digital ID.</string>
+    <string name="activation_same_device_title">Continue on this device</string>
+    <string name="activation_same_device_description">Valid mobile-ID is required. You will be redirected to the issuer of the Estonian Digital ID to complete the process.</string>
+    <string name="activation_cross_device_title">Continue in other device (computer)</string>
+    <string name="activation_cross_device_description">Use a computer and the ID-Card to add the Estonian Digital ID. Specific steps will be displayed when continuing with this option.</string>
+
+    <!-- Issuance -->
+    <string name="offer_description">Requests to issue the following document to your Wallet:</string>
+
+    <string name="issuance_title">Document received!</string>
+    <string name="issuance_retrieving_title">Retrieving document</string>
+    <string name="issuance_retrieving_description">Please wait while the wallet is retrieving the document.</string>
+    <string name="issuance_add_to_wallet">Add to wallet</string>
+
+    <string name="issuer_pid_sdjwt">Test Estonian Digital ID Issuer</string>
+    <string name="issuer_pid_mdoc">Test Estonian Digital ID Issuer</string>
+    <string name="issuer_mdl_mdoc">mDL Issuer</string>
+
+    <string name="cross_tutorial_item1">Find a computer with internet access.</string>
+    <string name="cross_tutorial_item2">Go to the Estonian Digital ID Issuer website https://wallet-issuer.example.com</string>
+    <string name="cross_tutorial_item3">Authenticate (using ID-card or mobile-ID) and follow the steps. </string>
+    <string name="cross_tutorial_item4">Scan the QR code displayed by the issuer of the Estonian Digital ID to download the document.</string>
+    <string name="cross_tutorial_title">Add Estonian Digital ID</string>
+    <string name="cross_tutorial_open_reader">Open QR code reader</string>
+
+
+    <!-- Activity log -->
+    <string name="activity_log_title">Activity log</string>
+    <string name="activity_log_description">Track all the data exchanges from your digital documents.</string>
+    <string name="log_entry_title">Log entry</string>
+    <string name="log_entry_request_title">Data exchange description</string>
+    <string name="log_entry_relying_party">Recipient of the data</string>
+    <string name="log_entry_presentation_time">Presentation time</string>
+    <string name="log_entry_presented_data">Presented data</string>
+    <string name="log_entry_requested_data">Requested data</string>
+    <string name="log_entry_data_exchange">Data exchange</string>
+    <string name="log_entry_failed">Data not sent</string>
+    <string name="log_entry_successful">Data sent</string>
+    <string name="yes">Yes</string>
+
+    <!-- Mock Authentication -->
+    <string name="mock_auth_auth_mean">How would you like to authenticate?</string>
+    <string name="mock_auth_auth_mean_id_card_pin">"ID-card and PIN"</string>
+    <string name="mock_auth_auth_mean_id_card_pin_details">A smart device with NFC reading capability and a valid ID-card with PIN codes are required</string>
+    <string name="mock_auth_auth_mean_biometry">ID-card/Pasport and Biomemetry</string>
+    <string name="mock_auth_auth_mean_biometry_details">A smart device with NFC reading capability and a valid ID card or passport are required</string>
+    <string name="mock_auth_mobile_id">Mobile-ID</string>
+    <string name="mock_auth_mobile_id_details">A valid Mobile-ID contract is required</string>
+    <string name="mock_auth_on_premise">In the office</string>
+    <string name="mock_auth_on_premise_details">To identify yourself at the office, you must go to the PPA service office</string>
+
+    <string name="mock_auth_mobile_id_control_code">Control code</string>
+    <string name="mock_auth_mobile_id_confirm">Confirm?</string>
+    <string name="mock_auth_mobile_id_auth_info">To identify yourself using Mobile-ID, enter your phone number and personal identification code</string>
+    <string name="mock_auth_mobile_id_mobile_nr">Country code and phone number</string>
+    <string name="mock_auth_mobile_id_pid">Personal id code</string>
+    <string name="mock_auth_mobile_id_pin1">Enter Mobiil-ID PIN1</string>
+    <string name="mock_auth_mobile_id_sucess">Identification using Mobile ID was successful</string>
+
+</resources>

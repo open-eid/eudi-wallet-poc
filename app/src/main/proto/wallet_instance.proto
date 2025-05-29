@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "ee.cyber.wallet";
+option java_multiple_files = true;
+
+message WalletInstanceCredentialsProto {
+  string instanceId = 1;
+  string instancePassword = 2;
+}

@@ -1,0 +1,25 @@
+syntax = "proto3";
+package ee.cyber.pid.provider;
+
+service PidIssuanceService {
+  rpc IssuePid (EePidIssuanceRequest) returns (EePidIssuanceResponse);
+}
+
+enum DocType {
+  SD_JWT = 0;
+  MSO_MDOC = 1;
+}
+
+message EePidIssuanceRequest {
+  DocType docType = 1;
+  string sub = 2;
+  string familyName = 3;
+  string givenName = 4;
+  string birthdate = 5;
+  // Needs to be a valid JWK that is a json string: https://datatracker.ietf.org/doc/html/rfc7517
+  string holderPubKeyJson = 6;
+}
+
+message EePidIssuanceResponse {
+  string credential = 1;
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1019268013758",
+    "project_id": "potential-wallet-bdf1d",
+    "storage_bucket": "potential-wallet-bdf1d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019268013758:android:2a19daaf6e3592726308ef",
+        "android_client_info": {
+          "package_name": "ee.ria.wallet.debug"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAw6xsAu3THJaFryyk0mFYWtZVEEJA7cz0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
