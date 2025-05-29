@@ -1,0 +1,7 @@
+<resources>
+    <!-- Language -->
+    <string name="language_title">Язык</string>
+    <string name="en_localized">Английский</string>
+    <string name="et_localized">Эстонкий</string>
+    <string name="ru_localized"/>
+</resources>
