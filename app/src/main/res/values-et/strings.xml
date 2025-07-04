@@ -1,0 +1,234 @@
+<resources>
+    <string name="app_name">EE Wallet</string>
+
+    <!-- Buttons -->
+    <string name="cancel_btn">Katkesta</string>
+    <string name="delete_btn">Delete</string>
+    <string name="confirm_btn">Kinnita</string>
+    <string name="close_btn">Sulge</string>
+    <string name="share_btn">Jaga andmeid</string>
+    <string name="continue_btn">Edasi</string>
+
+    <!-- Misc -->
+    <string name="loading">Laadimine…</string>
+    <string name="exit_confirmation">Väljumiseks vajutage uuesti!</string>
+    <string name="nothing_to_show_title">Pole midagi näidata</string>
+    <string name="nothing_to_show_subtitle">Värskendamiseks tõmmake alla</string>
+
+    <!-- Scanner -->
+    <string name="scanner_no_permissions_title">Luba kaamera kasutamine seadetest</string>
+    <string name="scanner_no_permissions_description">Eesti digikukkur kasutab kaamerat, et skanneerida QR-koode.</string>
+    <string name="scanner_go_to_settings">Ava seaded</string>
+    <string name="scanner_scan_qr_code">Skanneeri QR-kood</string>
+    <string name="scanner_focus_note">Suuna kaamera QR koodile, et algatada andmete esitamine internetis.</string>
+
+    <!-- Welcome -->
+    <string name="welcome_title">Aktiveeri digikukkur</string>
+    <string name="welcome_create_pin">Edasi</string>
+    <string name="welcome_language_title">Digikukru keel</string>
+    <string name="welcome_subtitle">Digikukru aktiveerimiseks vali digikukrule PIN-kood ja lisa digikukrusse Eesti digitaalne ID.</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Töölaud</string>
+    <string name="dashboard_my_documents">Minu dokumendid</string>
+    <string name="dashboard_activity_log">Andmete esitamiste ajalugu</string>
+    <string name="dashboard_settings">Seaded</string>
+    <string name="dashboard_from_the_verifier">Esita andmeid internetis</string>
+    <string name="dashboard_scan_qr_code">Ava QR-koodi lugeja</string>
+    <string name="dashboard_show_qr_code">Show QR code</string>
+    <string name="dashboard_to_the_verifier">to the verifier</string>
+    <string name="dashboard_start_proximity">Alusta lähivoog</string>
+    <string name="dashboard_start_proximity_subtitle">Presenteeri tõend lähivooga</string>
+
+    <string name="doc_type_estonian_digital_id">Eesti digitaalne ID</string>
+    <string name="doc_type_primary_description">Isikut tõendav dokument</string>
+    <string name="doc_type_digital_driving_licence">Mobiilne juhiluba</string>
+    <string name="doc_type_right_to_drive_description">Juhtimisõigused</string>
+    <string name="doc_type_age_verification_card">Age Verification Card</string>
+    <string name="doc_type_age_verification_description">Age verification document</string>
+
+    <!-- My documents -->
+    <string name="my_documents_add_new_document">Lisa uus dokument</string>
+    <string name="my_documents_add_pid_sd_jwt">Eesti digitaalne ID (sd-jwt)</string>
+    <string name="my_documents_add_pid_mdoc">Eesti digitaalne ID (mdoc)</string>
+    <string name="my_documents_add_mdl_mdoc">Mobiilne juhiluba (mdoc)</string>
+    <string name="my_documents_add_age_verification">Add Age Verification Card</string>
+    <string name="my_documents_no_documents_found">Digikukrus ei ole kehtivaid dokumente.</string>
+    <string name="my_documents_title">Minu dokumendid</string>
+    <string name="my_documents_error_while_adding_a_new_document">Viga uue dokumendi lisamisel.\n%1$s</string>
+
+    <string name="document_qr_code_title">See QR-kood sisaldab dokumendi andmeid, mis on kuvatud ülal.</string>
+
+    <!-- PIN -->
+    <string name="pin_welcome_to_ee_wallet">Vali digikukru PIN</string>
+    <string name="pin_enter_your_new_pin">Vali PIN</string>
+    <string name="pin_re_enter_your_pin">Kinnita PIN</string>
+    <string name="pin_pin_successfully_created">Digikukru PIN \nvalitud!</string>
+    <string name="pin_enter_wallet_pin">Sisesta digikukru PIN</string>
+    <string name="pin_confirm_sharing_the_data_with">Kinnita andmete jagamine osapoolega:</string>
+    <string name="pin_confirm_issuance_by">Kinnita dokumendi vastuvõtmine osapoolelt:</string>
+    <string name="pin_incorrect_pin_attempts_left">Vale PIN. Katseid jäänud: %1$s</string>
+    <string name="pin_unknown_error">Tundmatu viga</string>
+    <string name="pin_pins_don_t_match_please_try_again">PIN koodid ei ühti. Proovi uuesti.</string>
+
+    <!-- Proximity -->
+    <string name="document_proximity_qr_code_title">Näita see QR kood tõendi kontrollijale</string>
+
+    <!-- Presentation -->
+    <string name="presentation_close_in_btn">Sulge %1$s</string>
+    <string name="presentation_data_exchange_successful">Andmed edukalt esitatud!</string>
+    <string name="presentation_close_and_try_again">Sulge ja proovi uuesti.</string>
+    <string name="presentation_verified_party">Autenditud osapool</string>
+    <string name="presentation_requests_following_data_to">Küsib järgnevaid andmeid:</string>
+    <string name="presentation_footer_note">Kontrolli tähelepanelikult üle andmed, mida esitad %1$s!</string>
+    <string name="presentation_image_stub">[Image]</string>
+
+    <!-- Errors -->
+    <string name="error_presentation_rp_connection_failed">Andmete päringu esitajaga ei õnnestunud ühendust luua.</string>
+    <string name="error_presentation_unknown_error">Digikukru rakenduses esines tundmatu viga.</string>
+    <string name="error_presentation_verification_error">Andmete päringu esitaja autentimine ebaõnnestus.</string>
+    <string name="error_presentation_match_error">Digikukrus ei ole dokumenti, mis sisaldaks küsitud andmeid.</string>
+    <string name="error_presentation_response_error">Esituse saatmine ebaõnnestus.</string>
+    <string name="error_presentation_incorrect_pin">Kasutaja ületas vale digikukru PIN-koodi sisetamise limiidi.</string>
+    <string name="error_presentation_user_cancelled">Kasutaja katkestas andmete esitamise digikukrus.</string>
+    <string name="error_presentation_verifier_error">Andmete päringu esitaja lükkas esituse tagasi.</string>
+    <string name="error_presentation_unsupported_request_type">Päringu tüüp ei ole toetatud!</string>
+    <string name="error_issuance_authorization_error">Autoriseerimine ebaõnnestus.</string>
+    <string name="error_issuance_common_error">Dokumendi väljastamine ebaõnnestus.</string>
+
+    <!-- Attributes -->
+    <string name="attr_identification_nr">Isikukood</string>
+    <string name="attr_administrative_number">Haldusnumber</string>
+    <string name="attr_user_pseudonym">Pseudonüüm</string>
+    <string name="attr_given_name">Eesnimi</string>
+    <string name="attr_family_name">Perekonnanimi</string>
+    <string name="attr_given_name_national_character">Eesnimi rahvuslikus kirjapildis</string>
+    <string name="attr_family_name_national_character">Perekonnanimi rahvuslikus kirjapildis</string>
+    <string name="attr_given_name_birth">Sünnijärgne eesnimi</string>
+    <string name="attr_family_name_birth">Sünnijärgne perekonnanimi</string>
+    <string name="attr_birth_place">Sünnikoht</string>
+    <string name="attr_date_of_birth">Sünniaeg</string>
+    <string name="attr_nationality">Rahvus</string>
+    <string name="attr_age_over_18">Vanus üle 18</string>
+    <string name="attr_age_over_16">Vanus üle 16</string>
+    <string name="attr_age_over_21">Vanus üle 21</string>
+    <string name="attr_issuance_date">Välja antud</string>
+    <string name="attr_issuing_country">Väljaandja riik</string>
+    <string name="attr_issuing_authority">Väljaandja</string>
+    <string name="attr_document_number">Document number</string>
+    <string name="attr_expiry_date">Kehtivuse lõpp</string>
+    <string name="attr_portrait">Portree</string>
+    <string name="attr_driving_privileges">Juhtimisõigused</string>
+    <string name="attr_un_distinguishing_sign">Riiklik eraldusmärk</string>
+    <string name="attr_signature_usual_mark">Signature/usual mark</string>
+    <string name="attr_resident_address">Elukoha aadress</string>
+    <string name="attr_resident_country">Elukoha riik</string>
+    <string name="attr_resident_city">Elukoha linn</string>
+    <string name="attr_resident_state">Elukoha maakond</string>
+    <string name="attr_resident_postal_code">Elukoha postiindeks</string>
+    <string name="attr_resident_street">Elukoha tänav</string>
+    <string name="attr_resident_house_number">Elukoha maja number</string>
+    <string name="attr_sex">Sugu</string>
+    <string name="attr_email_address">E-posti aadress</string>
+    <string name="attr_mobile_phone_number">Telefoninumber</string>
+    <string name="attr_issuing_jurisdiction">Väljastav jurisdiktsioon</string>
+    <string name="attr_age_in_years">Vanus aastates</string>
+    <string name="attr_age_birth_year">Sünniaasta</string>
+    <string name="attr_height">Pikkus</string>
+    <string name="attr_weight">Kaal</string>
+    <string name="attr_eye_colour">Silmade värv</string>
+    <string name="attr_hair_colour">Juuste värv</string>
+    <string name="attr_portrait_capture_date">Portreefoto kuupäev</string>
+    <string name="attr_biometric_template_face">Biomeetriline mall: nägu</string>
+    <string name="attr_biometric_template_finger">Biomeetriline mall: sõrm</string>
+    <string name="attr_biometric_template_signature_sign">Biomeetriline mall: allkiri</string>
+    <string name="attr_biometric_template_iris">Biomeetriline mall: iiris</string>
+    <string name="attr_trust_anchor">Usaldus ankur</string>
+
+    <!-- Dialogs -->
+    <string name="document_delete_confirmation_title">Confirmation Required</string>
+    <string name="document_delete_confirmation_text">Are you sure you want to delete this document? This action cannot be undone.</string>
+
+    <!-- Settings -->
+    <string name="settings_delete_account_confirmation_title">Kinnita</string>
+    <string name="settings_delete_account_confirmation_text">Kas sa oled kindel, et soovid konto kustutada. Seda tegevust ei saa tagasi võtta.</string>
+    <string name="settings_title">Seaded</string>
+    <string name="settings_language">Rakenduse keel</string>
+    <string name="settings_delete_all_item_title">Kustuda kõik digikukru andmed</string>
+    <string name="settings_delete_all_item_text">Kui sa ei kasuta enam seda seadet või digikukrut siis kustuda oma digikukru andmed.</string>
+    <string name="settings_bluetooth_mode_title">Bluetooth režiim</string>
+    <string name="settings_bluetooth_peripheral_mode">Perifeeria server</string>
+    <string name="settings_bluetooth_central_mode">Keskne klient</string>
+
+    <!-- Language -->
+    <string name="language_title">Rakenduse keel</string>
+    <string name="en">English</string>
+    <string name="en_localized" />
+    <string name="et">Eesti keel</string>
+    <string name="et_localized">Estonian</string>
+    <string name="ru">Русский</string>
+    <string name="ru_localized">Russian</string>
+
+    <!-- Activation -->
+    <string name="activation_title">Lisa Eesti digitaalne ID</string>
+    <string name="activation_description">Digikukru isikustamiseks ja aktiveerimise lõpuleviimiseks, lisa Eesti digitaalne ID. Vali eelistatud viis Eesti digitaalse ID lisamiseks.</string>
+    <string name="activation_same_device_title">Jätka sellel seadmel</string>
+    <string name="activation_same_device_description">Vajalik aktiivse mobiil-ID olemasolek. Jätkates, suunatakse sind Eesti digitaalse ID väljastaja veebilehele.</string>
+    <string name="activation_cross_device_title">Jätka teises seadmes (arvutis)</string>
+    <string name="activation_cross_device_description">Kasuta arvutit ja ID-kaarti. Jätkates, kuvatakse detailsed sammud Eesti digitaalse ID lisamiseks.</string>
+
+    <!-- Issuance -->
+    <string name="offer_description">Soovib väljastada digikukrusse järgnevat dokumenti:</string>
+
+    <string name="issuance_title">Dokument väljastatud!</string>
+    <string name="issuance_retrieving_title">Dokumendi väljastamine</string>
+    <string name="issuance_retrieving_description">Palun oota, dokumenti väljastatakse digikukrusse!</string>
+    <string name="issuance_add_to_wallet">Lisa digikukrusse</string>
+
+    <string name="issuer_pid_sdjwt">Test Estonian Digital ID Issuer</string>
+    <string name="issuer_pid_mdoc">Test Estonian Digital ID Issuer</string>
+    <string name="issuer_mdl_mdoc">mDL Issuer</string>
+    <string name="issuer_age_verification">Age Verification Issuer</string>
+
+    <string name="cross_tutorial_item1">Leia internetiühendusega arvuti.</string>
+    <string name="cross_tutorial_item2">Ava Eesti digitaalse ID väljastaja veebileht https://wallet-issuer.example.com</string>
+    <string name="cross_tutorial_item3">Autendi ennast (ID-kaardi või mobiil-ID abil) ja järgi veebilehel kuvatud juhiseid.</string>
+    <string name="cross_tutorial_item4">Skanneeri QR-kood, mida kuvab Eesti digitaalse ID väljastaja. QR-koodi skannerimine on vajalik, et algatada dokumendi allalaadimine.</string>
+    <string name="cross_tutorial_title">Lisa Eesti digitaalne ID</string>
+    <string name="cross_tutorial_open_reader">Ava QR-koodi lugeja</string>
+
+
+    <!-- Activity log -->
+    <string name="activity_log_title">Andmete esitamiste ajalugu</string>
+    <string name="activity_log_description">Vaata, mis andmeid oled jaganud enda digikukrust.</string>
+    <string name="log_entry_title">Esituse detailvaade</string>
+    <string name="log_entry_request_title">Esituse kirjeldus</string>
+    <string name="log_entry_relying_party">Andmete saaja</string>
+    <string name="log_entry_presentation_time">Esituse aeg</string>
+    <string name="log_entry_presented_data">Esitatud andmed</string>
+    <string name="log_entry_requested_data">Küsitud andmed</string>
+    <string name="log_entry_data_exchange">Andmete esitamise tulemus</string>
+    <string name="log_entry_failed">Andmete saatmine ebaõnnestus</string>
+    <string name="log_entry_successful">Andmed saadetud</string>
+    <string name="yes">Jah</string>
+
+    <!-- Mock Authentication -->
+    <string name="mock_auth_auth_mean">Kuidas soovid end tuvastada?</string>
+    <string name="mock_auth_auth_mean_id_card_pin">"ID-kaart ja PIN"</string>
+    <string name="mock_auth_auth_mean_id_card_pin_details">Vajalik on nutiseade NFC lugemise võimalusega ja kehtiv ID-kaart koos PIN-koodidega</string>
+    <string name="mock_auth_auth_mean_biometry">ID-Kaart/Pass ja Biomeetria</string>
+    <string name="mock_auth_auth_mean_biometry_details">Vajalik on nutiseade NFC lugemise võimalusega ja kehtiv ID-kaart või Pass</string>
+    <string name="mock_auth_mobile_id">Mobiil-ID</string>
+    <string name="mock_auth_mobile_id_details">Vajalik on kehtiv Mobiil-ID leping</string>
+    <string name="mock_auth_on_premise">Kontoris</string>
+    <string name="mock_auth_on_premise_details">Kontoris tuvastamiseks peate minema PPA teeninduskontorisse</string>
+
+    <string name="mock_auth_mobile_id_control_code">Kontrollkood</string>
+    <string name="mock_auth_mobile_id_confirm">Kinnitan?</string>
+    <string name="mock_auth_mobile_id_auth_info">Mobiil-ID abil tuvastamiseks sisesta oma telefoni number ja isikukood</string>
+    <string name="mock_auth_mobile_id_mobile_nr">Riigikood ja telefoninumber</string>
+    <string name="mock_auth_mobile_id_pid">Isikukood</string>
+    <string name="mock_auth_mobile_id_pin1">Sisesta Mobiil-ID PIN1</string>
+    <string name="mock_auth_mobile_id_sucess">Mobiil-ID abil tuvastamine õnnestus</string>
+
+</resources>

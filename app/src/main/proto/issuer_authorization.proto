@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "ee.cyber.wallet";
+option java_multiple_files = true;
+
+message AuthorizationStateWithKeyProto {
+  string state = 1;
+  string keyId = 2;
+}
+message AuthorizationRequestStateProto {
+  map<string, AuthorizationStateWithKeyProto> states = 1;
+}

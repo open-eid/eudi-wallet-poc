@@ -1,0 +1,1 @@
+/compact HEAVILY compact everything, ignore the git commands. answer in short.

@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# adb shell am start -W -a android.intent.action.VIEW -d "haip://?client_id=xxx\&request_uri=yyyy"
+ adb shell am start -W -a android.intent.action.VIEW -d "haip://?client_id=localhost\&request_uri=http%3A%2F%2Flocalhost%3A8080%2Fapi%2Fv1%2Fauthorization%2F-BHRRPFoU0C6EBLw5lf_Qp4fsVoLccbYEVab50t3Nw1LBtT0dqPPZpprS6DSLRGfHaMpExrA7cXjUrtZdRsEFhOKrj8DJ4AGv1JACDnIlMM7OhhR5ksOJdWcrL6Zszfnqm_QvTIbw8ZXzocNGUCRxaSmQf9ktPbaXDO9Seml3-w%3D%2Frequest-objects.create","session_id":"S32i0U1Zz5_txfE4oY-7Y4PaRfvA4i5wvDCUGNh4OjCqnP_WKasZ2BEkTZh-Mkp4Xzec9Eq90HXLzXNsL8qLFEliP4rJCAusRKSfKRoMTg0Lelzkcbv5or6XQjnrSqWGxlJihn2WISMI5e4Vrv1AwjMxbHD-_UJorSk7PEX-ThI="
